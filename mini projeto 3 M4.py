@@ -113,3 +113,5 @@ while True:
                 f.write(f"{aluno[0]},{aluno[1]}\n")
         print(f"\n{VERDE}Guardado. Tchau!{RESET}")
         break
+    else:
+        print(f"{VERMELHO}Escolha uma opção válida!{RESET}")
