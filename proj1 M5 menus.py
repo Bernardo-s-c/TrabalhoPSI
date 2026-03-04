@@ -32,15 +32,15 @@ def _pausar():
 def menu_participantes():
     while True:
         print("\n  ┌─────────────────────────────────┐")
-        print("  │     👥  PARTICIPANTES            │")
+        print("  │     👥  PARTICIPANTES           │")
         print("  ├─────────────────────────────────┤")
-        print("  │  1. Adicionar participante       │")
-        print("  │  2. Listar todos                 │")
-        print("  │  3. Procurar por nome            │")
-        print("  │  4. Listar por tipo              │")
-        print("  │  5. Remover participante         │")
-        print("  │  6. Ver ficha de participante    │")
-        print("  │  0. Voltar                       │")
+        print("  │  1. Adicionar participante      │")
+        print("  │  2. Listar todos                │")
+        print("  │  3. Procurar por nome           │")
+        print("  │  4. Listar por tipo             │")
+        print("  │  5. Remover participante        │")
+        print("  │  6. Ver ficha de participante   │")
+        print("  │  0. Voltar                      │")
         print("  └─────────────────────────────────┘")
 
         opcao = input("  Opção: ").strip()
